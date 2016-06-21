@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app xmlns:th = "http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Demagraph</title>
+    <!--<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>-->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-alpha.19/angular2.js"></script>
+
+    <!--<script src="demograph.js"></script>-->
+</head>
+<body>
+<div ng-controller = "Demo">
+    Text: <input ng-model = "name"> <button ng-click="update()" ng-enter="update()">update</button>
+    <p>Text = is [[${greeting.text}]]</p>
+</div>
+Hello
+</body>
+</html>
